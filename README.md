@@ -44,6 +44,4 @@ XGBoost + TF-IDF + PCA	|0.71	|0.80	|0.71	|0.71
 
 CONCLUSION
 =================================================================================================================================
-From this project's result, it can be deduced that the model was not able to perform well in its duty to classify the data.
-<br>Although various combinations are tried in order to achieve the best result, no clear outcome can be drawn from the results obtained.
-<br>Several factors that could potentially cause this kind of result is the extreme data imbalance. Thus, it might be safe to assume that the model is bias towards certain class.
+From this project's result, it can be deduced that the model was not able to perform well in its duty to classify the data. Although various combinations are tried in order to achieve the best result, no clear outcome can be drawn from the results obtained. Several factors that could potentially cause this kind of result is the extreme data imbalance. Thus, it might be safe to assume that the model is bias towards certain class.
