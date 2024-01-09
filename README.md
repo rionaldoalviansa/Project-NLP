@@ -33,10 +33,17 @@ Multiple preprocessing steps are performed for the dataset cleansing, which incl
 
 MODELLING EVALUATION
 =================================================================================================================================
-In this project, I compare multiple results which were obtained from combining various vectorizer with the classifier model, XGBoost Classifier.
-<br> The results are as the following:
+In this project, I compare multiple results that were obtained by combining various vectorizers with the classifier model, the XGBoost Classifier.
+<br> The results are as follows:
 Model | Accuracy | Precision | Recall | F1-score |
 --- | --- | --- | --- |--- |
 XGBoost + TF-IDF	|0.66	|0.72	|0.66	|0.58
 XGBoost + Word2Vec	|0.37	|0.32	|0.37	|0.29
 XGBoost + TF-IDF + PCA	|0.71	|0.80	|0.71	|0.71
+
+
+CONCLUSION
+=================================================================================================================================
+From this project's result, it can be deduced that the model was not able to perform well in its duty to classify the data.
+<br>Although various combinations are tried in order to achieve the best result, no clear outcome can be drawn from the results obtained.
+<br>Several factors that could potentially cause this kind of result is the extreme data imbalance. Thus, it might be safe to assume that the model is bias towards certain class.
